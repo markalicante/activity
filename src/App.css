@@ -36,3 +36,152 @@
     transform: rotate(360deg);
   }
 }
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Set the height of the viewport */
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-header h1 {
+  font-size: calc(40px + 2vmin);
+  color: rgb(255, 255, 255);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btn-lighter {
+  border-color: #6c757d;
+  color: #4c5763;
+  transition: background-color 0.3s ease;
+}
+
+.btn-lighter:hover {
+  border-color: white;
+  color: #f8f9fa;
+}
+
+.btn-darker {
+  border-color: #6c757d;
+  color: #4c5763;
+  transition: background-color 0.3s ease;
+}
+
+.btn-darker:hover {
+  border-color: white;
+  color: white;
+}
+
+.btn-danger.btn-lighter {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+
+.btn-success.btn-lighter {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.card-lighter {
+  color: #f8f9fa;
+}
+
+.input-lighter {
+  background-color: #343a40;
+  border-color: #6c757d;
+  color: #f8f9fa;
+  transition: background-color 0.3s ease;
+}
+
+.input-lighter:focus {
+  background-color: #606c78;
+  border-color: #6c757d;
+  color: #f8f9fa;
+  transition: background-color 0.3s ease;
+}
+
+.input-lighter:hover {
+  background-color: #49525b;
+}
+
+.input-lighter::placeholder {
+  color: #f8f9fa;
+}
+
+.add-darker {
+  background-color: #23272a;
+  color: white;
+  border: 1px solid white;
+  transition: background-color 0.3s ease;
+}
+
+.add-darker:hover {
+  background-color: #343a40;
+  color: white;
+  border: 1px solid white;
+}
+
+.add-darker:active {
+  background-color: #606c78;
+  color: white;
+  border: 1px solid black;
+}
+
+.btn-clear {
+  background-color: black;
+  color: white;
+}
+
+.header1 {
+  font-size: 100px;
+  color: white;
+}
+
+.form-select {
+  width: 200px;
+}
+
+.select-bg {
+  margin: 20px;
+  background: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
